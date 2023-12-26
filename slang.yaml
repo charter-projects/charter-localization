@@ -1,0 +1,27 @@
+base_locale: en-GB
+fallback_strategy: base_locale
+input_directory: lib/i18n
+input_file_pattern: .i18n.json
+output_directory: lib/src/i18n
+output_file_name: translations.g.dart
+output_format: multiple_files
+locale_handling: true
+flutter_integration: true
+namespaces: true
+translate_var: translations
+# There is currently a bug as this only updates the enum name and doesn't apply to other generated code
+enum_name: AppLocale
+translation_class_visibility: public
+key_case: camel
+key_map_case: camel
+param_case: camel
+string_interpolation: dart
+flat_map: true
+translation_overrides: true
+timestamp: false
+pluralization:
+  auto: cardinal
+  default_parameter: n
+contexts:
+  AppLocale:
+    generate_enum: false

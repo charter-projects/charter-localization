@@ -1,0 +1,7 @@
+{
+  "name": "Charter",
+  "locale(context=AppLocale, param=locale)": {
+    "enGb": "English (United Kingdom)",
+    "enUs": "English (United States)"
+  }
+}

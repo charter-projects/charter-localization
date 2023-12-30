@@ -18,7 +18,9 @@ dependencies:
 dev_dependencies:
   charter_analysis:
     git: https://github.com/charter-projects/charter-analysis
+  commitlint_cli: ^0.7.1
   flutter_test:
     sdk: flutter
+  husky: ^0.1.6
 
 flutter:
